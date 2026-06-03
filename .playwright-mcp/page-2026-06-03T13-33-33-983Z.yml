@@ -1,0 +1,169 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - img "JOJO Digital" [ref=e5]
+    - heading "הלקוח שלך מחפש אותך עכשיו. האם הוא מוצא אותך?" [level=1] [ref=e7]:
+      - text: הלקוח שלך מחפש אותך עכשיו.
+      - text: האם הוא מוצא אותך?
+    - paragraph [ref=e8]: אם אתה לא מופיע בגוגל ובמנועי ה‑AI, מישהו אחר מופיע במקומך.
+    - link "לקבלת בדיקת נוכחות ללא עלות" [ref=e10] [cursor=pointer]:
+      - /url: "#form"
+    - generic [ref=e11]:
+      - generic [ref=e12]: חינם לחלוטין
+      - generic [ref=e14]: ללא התחייבות
+      - generic [ref=e16]: תשובה תוך 48 שעות
+  - generic [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]: הבעיה האמיתית
+      - heading "עסקים טובים נעלמים בדיגיטל" [level=2] [ref=e22]
+      - paragraph [ref=e23]: רוב העסקים משקיעים בנראות, פחות מדי בנמצאות. זה ההבדל בין לקוח שמגיע ללקוח שלא.
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - img [ref=e27]
+        - heading "גוגל לא תמיד מבין מה אתה מציע" [level=3] [ref=e30]
+        - paragraph [ref=e31]: אתר שנראה מעולה לא מספיק, גוגל צריך להבין בדיוק מי אתה, מה אתה מוכר ולמי.
+      - generic [ref=e32]:
+        - img [ref=e34]
+        - heading "AI ממליץ על מתחרים, לא עליך" [level=3] [ref=e37]
+        - paragraph [ref=e38]: ChatGPT, Gemini ו-Perplexity מחזירים תוצאות לפי נוכחות דיגיטלית. אם אתה לא שם, המתחרה שלך כן.
+      - generic [ref=e39]:
+        - img [ref=e41]
+        - heading "הנוכחות שלך חלקית ואתה לא יודע" [level=3] [ref=e44]
+        - paragraph [ref=e45]: אתר לבד לא מספיק. פרופיל גוגל, תוכן, מבנה ורשתות, כולם חייבים לעבוד יחד.
+  - generic [ref=e47]:
+    - generic [ref=e48]:
+      - generic [ref=e49]: מה בודקים
+      - heading "בדיקה מקיפה ב‑6 תחומים" [level=2] [ref=e50]
+      - paragraph [ref=e51]: נוכחות דיגיטלית אמיתית היא לא רק אתר, זה כל המערכת שעוזרת ללקוחות למצוא אותך.
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - img [ref=e55]
+        - heading "SEO" [level=3] [ref=e58]
+        - paragraph [ref=e59]: "מיקום בגוגל + מה שגוגל \"מבין\" על העסק שלך: מילות מפתח, כותרות, ותכנים."
+      - generic [ref=e60]:
+        - img [ref=e62]
+        - heading "GEO / AI Visibility" [level=3] [ref=e64]
+        - paragraph [ref=e65]: האם ChatGPT, Gemini ו-Perplexity מציינים אותך? נוכחות במנועי ה-AI החדשים.
+      - generic [ref=e66]:
+        - img [ref=e68]
+        - heading "Google Business Profile" [level=3] [ref=e71]
+        - paragraph [ref=e72]: הופעה בחיפושים מקומיים, במפות, וביצוג הנכון של שעות, שירותים וביקורות.
+      - generic [ref=e73]:
+        - img [ref=e75]
+        - heading "בהירות האתר" [level=3] [ref=e78]
+        - paragraph [ref=e79]: האם האתר שולח מסר ברור בתוך 5 שניות? מה שמבקר לא מבין, הוא עוזב.
+      - generic [ref=e80]:
+        - img [ref=e82]
+        - heading "מבנה תוכן" [level=3] [ref=e86]
+        - paragraph [ref=e87]: "כותרות, מילות מפתח, E-E-A-T ואמינות: הבסיס שמאפשר לגוגל לסמוך עליך."
+      - generic [ref=e88]:
+        - img [ref=e90]
+        - heading "נוכחות ברשתות" [level=3] [ref=e96]
+        - paragraph [ref=e97]: החיבור בין הפלטפורמות (אתר, אינסטגרם, פייסבוק, לינקדאין) חשוב לאמינות.
+  - generic [ref=e99]:
+    - generic [ref=e100]:
+      - generic [ref=e101]: איך זה עובד
+      - heading "תהליך פשוט. תוצאות אמיתיות." [level=2] [ref=e102]
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - generic [ref=e106]: "1"
+        - generic [ref=e108]:
+          - heading "ממלאים את הטופס" [level=3] [ref=e109]
+          - paragraph [ref=e110]: פחות מ-30 שניות. שם, טלפון, שם העסק ואתר. זה הכל. ללא התחייבות.
+      - generic [ref=e111]:
+        - generic [ref=e113]: "2"
+        - generic [ref=e115]:
+          - heading "הצוות שלנו בודק את הנוכחות" [level=3] [ref=e116]
+          - paragraph [ref=e117]: נבדוק את SEO, ה-GEO, פרופיל גוגל, בהירות האתר ועוד. בדיקה אמיתית, לא אוטומטית.
+      - generic [ref=e118]:
+        - generic [ref=e120]: "3"
+        - generic [ref=e121]:
+          - heading "מקבלים תקציר והמלצות" [level=3] [ref=e122]
+          - paragraph [ref=e123]: תוך 48 שעות תקבלו ממצאים ראשוניים והמלצות קונקרטיות, ללא עלות וללא מחויבות.
+  - generic [ref=e125]:
+    - generic [ref=e126]:
+      - generic [ref=e127]: למה JOJO
+      - heading "שיווק שמבוסס על הבנה, לא על ניחושים" [level=2] [ref=e128]
+      - paragraph [ref=e129]: אנחנו לא סוכנות שמוכרת חבילות. אנחנו שותפים אסטרטגיים שמתחילים בהבנה.
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - img [ref=e133]
+        - generic [ref=e135]:
+          - heading "שקיפות מלאה" [level=3] [ref=e136]
+          - paragraph [ref=e137]: לא מוכרים חבילות עיוורות. אתם מבינים בדיוק מה נבדק, ולמה, ומה ההשלכות.
+      - generic [ref=e138]:
+        - img [ref=e140]
+        - generic [ref=e142]:
+          - heading "SEO + GEO ביחד" [level=3] [ref=e143]
+          - paragraph [ref=e144]: "אנחנו מתמחים בשני העולמות: גוגל המסורתי ומנועי ה-AI החדשים. שניהם קריטיים היום."
+      - generic [ref=e145]:
+        - img [ref=e147]
+        - generic [ref=e149]:
+          - heading "מתודולוגיה מבוססת דאטה" [level=3] [ref=e150]
+          - paragraph [ref=e151]: כל החלטה מבוססת על נתונים, לא על ניחושים. בדיקות אמיתיות עם כלים מקצועיים.
+      - generic [ref=e152]:
+        - img [ref=e154]
+        - generic [ref=e156]:
+          - heading "חשיבה אסטרטגית" [level=3] [ref=e157]
+          - paragraph [ref=e158]: לא רק "מה לתקן", אלא "מה יגרום לצמיחה". הגישה שלנו היא עסקית, לא טכנית בלבד.
+  - generic [ref=e160]:
+    - generic [ref=e161]:
+      - generic [ref=e162]: מתחילים עכשיו
+      - heading "השאירו פרטים נבדוק את הנוכחות שלכם" [level=2] [ref=e163]:
+        - text: השאירו פרטים
+        - text: נבדוק את הנוכחות שלכם
+      - paragraph [ref=e164]: בדיקה ראשונית ללא עלות. ללא התחייבות. תוצאות תוך 48 שעות.
+    - generic [ref=e167]:
+      - generic [ref=e168]:
+        - generic [ref=e169]: שם מלא
+        - textbox "שם מלא" [ref=e170]:
+          - /placeholder: ישראל ישראלי
+      - generic [ref=e171]:
+        - generic [ref=e172]: טלפון
+        - textbox "טלפון" [ref=e173]:
+          - /placeholder: 05X-XXXXXXX
+      - generic [ref=e174]:
+        - generic [ref=e175]: שם העסק
+        - textbox "שם העסק" [ref=e176]:
+          - /placeholder: שם העסק שלך
+      - generic [ref=e177]:
+        - generic [ref=e178]: אתר אינטרנט
+        - textbox "אתר אינטרנט" [ref=e179]:
+          - /placeholder: https://...
+      - button "לקבלת בדיקת נוכחות ללא עלות" [ref=e180] [cursor=pointer]
+      - paragraph [ref=e181]: הפרטים נשמרים בפרטיות מלאה ולא יועברו לצד שלישי
+      - generic [ref=e182]:
+        - generic [ref=e183]: מעדיפים לדבר ישירות?
+        - generic [ref=e184]:
+          - link "וואטסאפ" [ref=e185] [cursor=pointer]:
+            - /url: https://wa.me/972534301194
+            - img [ref=e186]
+            - text: וואטסאפ
+          - link "טלפון" [ref=e188] [cursor=pointer]:
+            - /url: tel:+972534301194
+            - img [ref=e189]
+            - text: טלפון
+          - link "מייל" [ref=e191] [cursor=pointer]:
+            - /url: mailto:eliran@jojodigital.co.il
+            - img [ref=e192]
+            - text: מייל
+  - contentinfo [ref=e195]:
+    - navigation "קישורים ליצירת קשר ורשתות חברתיות" [ref=e196]:
+      - link "וואטסאפ" [ref=e197] [cursor=pointer]:
+        - /url: https://wa.me/972534301194
+        - img [ref=e198]
+      - link "טלפון" [ref=e200] [cursor=pointer]:
+        - /url: tel:+972534301194
+        - img [ref=e201]
+      - link "מייל" [ref=e203] [cursor=pointer]:
+        - /url: mailto:eliran@jojodigital.co.il
+        - img [ref=e204]
+      - link "אינסטגרם" [ref=e207] [cursor=pointer]:
+        - /url: https://www.instagram.com/jojodigital.il/
+        - img [ref=e208]
+      - link "פייסבוק" [ref=e211] [cursor=pointer]:
+        - /url: https://www.facebook.com/people/%D7%92%D7%95%D7%92%D7%95-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C-JOJO-Digital/61587138807331/
+        - img [ref=e212]
+      - link "טיקטוק" [ref=e214] [cursor=pointer]:
+        - /url: https://www.tiktok.com/@jojo_digital_il
+        - img [ref=e215]
+    - text: © 2026 JOJO Digital · כל הזכויות שמורות

@@ -1,5 +1,4 @@
 import { useRef, useEffect } from 'react'
-import { motion } from 'framer-motion'
 
 // ─── Particle ────────────────────────────────────────────
 class Particle {
@@ -157,13 +156,6 @@ function ParticleCanvas() {
   )
 }
 
-// ─── Fade animation helper ────────────────────────────────
-const fade = (delay = 0) => ({
-  initial:    { opacity: 0, y: 28 },
-  animate:    { opacity: 1, y: 0  },
-  transition: { duration: 0.65, delay, ease: [0.22, 1, 0.36, 1] },
-})
-
 // ─── Hero section ─────────────────────────────────────────
 export default function HeroSection() {
   return (
@@ -185,18 +177,18 @@ export default function HeroSection() {
       }} />
 
       <div className="hero-content">
-        <motion.img
-          {...fade(0)}
+        <img
           src={`${import.meta.env.BASE_URL}logo.png`}
           alt="JOJO Digital"
-          className="hero-logo"
+          className="hero-logo fade-up-load"
           style={{ filter: 'drop-shadow(0 0 22px rgba(34,211,238,0.16))' }}
         />
 
         {/* Decorative amber rule between logo and headline */}
-        <motion.div
-          {...fade(0.07)}
+        <div
+          className="fade-up-load"
           style={{
+            animationDelay: '70ms',
             width: '36px',
             height: '1px',
             background: 'linear-gradient(90deg, transparent, rgba(232,163,23,0.55), transparent)',
@@ -204,17 +196,17 @@ export default function HeroSection() {
           }}
         />
 
-        <motion.h1 {...fade(0.14)} className="hero-h1">
+        <h1 className="hero-h1 fade-up-load" style={{ animationDelay: '140ms' }}>
           הלקוח שלך מחפש אותך עכשיו.
           <br />
           <span className="text-accent">האם הוא מוצא אותך?</span>
-        </motion.h1>
+        </h1>
 
-        <motion.p {...fade(0.26)} className="hero-sub">
+        <p className="hero-sub fade-up-load" style={{ animationDelay: '260ms' }}>
           אם אתה לא מופיע בגוגל ובמנועי ה‑AI, מישהו אחר מופיע במקומך.
-        </motion.p>
+        </p>
 
-        <motion.div {...fade(0.38)}>
+        <div className="fade-up-load" style={{ animationDelay: '380ms' }}>
           <a
             href="#form"
             className="btn-primary"
@@ -222,9 +214,9 @@ export default function HeroSection() {
           >
             לקבלת בדיקת נוכחות ללא עלות
           </a>
-        </motion.div>
+        </div>
 
-        <motion.div {...fade(0.52)} className="hero-badges">
+        <div className="hero-badges fade-up-load" style={{ animationDelay: '520ms' }}>
           {['חינם לחלוטין', 'ללא התחייבות', 'תשובה תוך 48 שעות'].map((label) => (
             <span
               key={label}
@@ -243,7 +235,7 @@ export default function HeroSection() {
               {label}
             </span>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   )

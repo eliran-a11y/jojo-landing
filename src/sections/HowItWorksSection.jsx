@@ -22,16 +22,10 @@ export default function HowItWorksSection() {
   return (
     <section className="section-steps section-depth section-pad">
       <div className="section-inner">
-        <motion.div
-          className="section-header"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
+        <div className="section-header fade-up">
           <span className="eyebrow">איך זה עובד</span>
           <h2 className="section-title">תהליך פשוט. תוצאות אמיתיות.</h2>
-        </motion.div>
+        </div>
 
         <div className="steps-track">
           {STEPS.map(({ num, title, desc }, i) => (

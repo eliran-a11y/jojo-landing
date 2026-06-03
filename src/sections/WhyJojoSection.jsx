@@ -31,19 +31,13 @@ export default function WhyJojoSection() {
   return (
     <section className="section-pad">
       <div className="section-inner">
-        <motion.div
-          className="section-header"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
+        <div className="section-header fade-up">
           <span className="eyebrow">למה JOJO</span>
           <h2 className="section-title">שיווק שמבוסס על הבנה, לא על ניחושים</h2>
           <p className="section-sub">
             אנחנו לא סוכנות שמוכרת חבילות. אנחנו שותפים אסטרטגיים שמתחילים בהבנה.
           </p>
-        </motion.div>
+        </div>
 
         <div className="why-grid">
           {REASONS.map(({ title, desc }, i) => (

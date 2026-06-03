@@ -1,0 +1,187 @@
+{
+  "desktop": {
+    "scrollWidth": 1905,
+    "clientWidth": 1905,
+    "overflow": "OK"
+  },
+  "hashLinks": [],
+  "allInputs": [
+    {
+      "type": "text",
+      "name": "",
+      "placeholder": "ישראל ישראלי",
+      "required": true
+    },
+    {
+      "type": "tel",
+      "name": "",
+      "placeholder": "05X-XXXXXXX",
+      "required": true
+    },
+    {
+      "type": "text",
+      "name": "",
+      "placeholder": "שם העסק שלך",
+      "required": true
+    },
+    {
+      "type": "text",
+      "name": "",
+      "placeholder": "https://...",
+      "required": false
+    }
+  ],
+  "hiddenByAnimation": [],
+  "sections": [
+    {
+      "cls": "section-hero",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-problem section-depth section-pad",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-inner",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-header fade-up in-view",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-title",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-sub",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-pad section-check",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-inner",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-header fade-up in-view",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-title",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-sub",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-steps section-depth section-pad",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-inner",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-header fade-up in-view",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-title",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-pad",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-inner",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-header fade-up in-view",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-title",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-sub",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-form section-depth section-pad",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-inner",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-header fade-up in-view",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-title",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    },
+    {
+      "cls": "section-sub",
+      "opacity": "1",
+      "visibility": "visible",
+      "inView": true
+    }
+  ]
+}

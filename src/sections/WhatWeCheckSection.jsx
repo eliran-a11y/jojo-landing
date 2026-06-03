@@ -101,20 +101,14 @@ export default function WhatWeCheckSection() {
   return (
     <section className="section-pad section-check">
       <div className="section-inner">
-        <motion.div
-          className="section-header"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
+        <div className="section-header fade-up">
           <span className="eyebrow">מה בודקים</span>
           <h2 className="section-title">בדיקה מקיפה ב‑6 תחומים</h2>
           <p className="section-sub">
             נוכחות דיגיטלית אמיתית היא לא רק אתר,
             זה כל המערכת שעוזרת ללקוחות למצוא אותך.
           </p>
-        </motion.div>
+        </div>
 
         <div className="check-grid">
           {CHECKS.map(({ Icon, color, title, desc }, i) => (
@@ -123,7 +117,7 @@ export default function WhatWeCheckSection() {
               className="glass-card check-card"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              whileHover={{ y: -4, transition: { duration: 0.28, ease: [0.22, 1, 0.36, 1] } }}
+              whileHover={{ y: -8, scale: 1.02, transition: { duration: 0.3, ease: 'easeOut' } }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
               {...spotlightHandlers}

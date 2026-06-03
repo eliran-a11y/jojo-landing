@@ -53,20 +53,14 @@ export default function ProblemSection() {
   return (
     <section className="section-problem section-depth section-pad">
       <div className="section-inner">
-        <motion.div
-          className="section-header"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
+        <div className="section-header fade-up">
           <span className="eyebrow">הבעיה האמיתית</span>
           <h2 className="section-title">עסקים טובים נעלמים בדיגיטל</h2>
           <p className="section-sub">
             רוב העסקים משקיעים בנראות, פחות מדי בנמצאות.
             זה ההבדל בין לקוח שמגיע ללקוח שלא.
           </p>
-        </motion.div>
+        </div>
 
         <div className="problem-grid">
           {PROBLEMS.map(({ Icon, title, desc }, i) => (
@@ -75,7 +69,7 @@ export default function ProblemSection() {
               className="glass-card problem-card"
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
-              whileHover={{ y: -4, transition: { duration: 0.28, ease: [0.22, 1, 0.36, 1] } }}
+              whileHover={{ y: -8, scale: 1.02, transition: { duration: 0.3, ease: 'easeOut' } }}
               viewport={{ once: true }}
               transition={{ duration: 0.55, delay: i * 0.12 }}
               {...spotlightHandlers}
