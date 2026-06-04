@@ -786,13 +786,15 @@ a { text-decoration: none; color: inherit; }
 }
 
 .form-contact-link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 0.32rem;
   font-size: 0.78rem;
   color: rgba(248,250,252,0.36);
   text-decoration: none;
   transition: color 0.25s ease-out;
+  min-height: 44px;
+  padding: 0 0.5rem;
 }
 
 .form-contact-link:hover {
@@ -821,8 +823,11 @@ a { text-decoration: none; color: inherit; }
   color: rgba(248,250,252,0.22);
   text-decoration: none;
   transition: color 0.25s ease-out;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
   line-height: 1;
 }
 
