@@ -314,7 +314,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .hero-logo {
-  height: 300px;
+  height: 190px;
   width: auto;
   max-width: 85vw;
   object-fit: contain;
@@ -322,14 +322,14 @@ a { text-decoration: none; color: inherit; }
 }
 
 @media (max-width: 480px) {
-  .hero-logo { height: 150px; }
+  .hero-logo { height: 105px; }
 }
 
 /* Typography IS the visual — make it dominant */
 .hero-h1 {
   font-size: clamp(2.4rem, 6.5vw, 4.8rem);
   font-weight: 900;
-  line-height: 1.18;
+  line-height: 1.12;
   letter-spacing: -0.035em;
   color: var(--text);
 }
@@ -817,6 +817,10 @@ a { text-decoration: none; color: inherit; }
   gap: 1.25rem;
   margin-bottom: 1rem;
   flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+  .footer-links { gap: 0.625rem; }
 }
 
 .footer-link {

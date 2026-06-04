@@ -181,19 +181,7 @@ export default function HeroSection() {
           src={`${import.meta.env.BASE_URL}logo.png`}
           alt="JOJO Digital"
           className="hero-logo fade-up-load"
-          style={{ filter: 'drop-shadow(0 0 22px rgba(34,211,238,0.16))' }}
-        />
-
-        {/* Decorative amber rule between logo and headline */}
-        <div
-          className="fade-up-load"
-          style={{
-            animationDelay: '70ms',
-            width: '36px',
-            height: '1px',
-            background: 'linear-gradient(90deg, transparent, rgba(232,163,23,0.55), transparent)',
-            margin: '-0.25rem auto 0',
-          }}
+          style={{ filter: 'drop-shadow(0 0 22px rgba(34,211,238,0.16))', marginBottom: '-0.75rem' }}
         />
 
         <h1 className="hero-h1 fade-up-load" style={{ animationDelay: '140ms' }}>
@@ -206,7 +194,7 @@ export default function HeroSection() {
           אם אתה לא מופיע בגוגל ובמנועי ה‑AI, מישהו אחר מופיע במקומך.
         </p>
 
-        <div className="fade-up-load" style={{ animationDelay: '380ms' }}>
+        <div className="fade-up-load" style={{ animationDelay: '380ms', marginTop: '0.75rem' }}>
           <a
             href="#form"
             className="btn-primary"
