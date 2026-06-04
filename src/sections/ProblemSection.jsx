@@ -53,7 +53,7 @@ export default function ProblemSection() {
   return (
     <section className="section-problem section-depth section-pad">
       <div className="section-inner">
-        <div className="section-header fade-up">
+        <div className="section-header">
           <span className="eyebrow">הבעיה האמיתית</span>
           <h2 className="section-title">עסקים טובים נעלמים בדיגיטל</h2>
           <p className="section-sub">

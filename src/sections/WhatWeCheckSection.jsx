@@ -105,7 +105,7 @@ export default function WhatWeCheckSection() {
   return (
     <section className="section-pad section-check">
       <div className="section-inner">
-        <div className="section-header fade-up">
+        <div className="section-header">
           <span className="eyebrow">מה בודקים</span>
           <h2 className="section-title">בדיקה מקיפה בשישה תחומים</h2>
           <p className="section-sub">

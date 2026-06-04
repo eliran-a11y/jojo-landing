@@ -4,7 +4,7 @@ const STEPS = [
   {
     num: '1',
     title: 'ממלאים את הטופס',
-    desc: 'פחות מ-30 שניות. שם, טלפון, שם העסק ואתר. זה הכל. ללא התחייבות.',
+    desc: 'פחות מ-30 שניות. שם, טלפון, שם העסק ואתר.',
   },
   {
     num: '2',
@@ -22,7 +22,7 @@ export default function HowItWorksSection() {
   return (
     <section className="section-steps section-depth section-pad">
       <div className="section-inner">
-        <div className="section-header fade-up">
+        <div className="section-header">
           <span className="eyebrow">איך זה עובד</span>
           <h2 className="section-title">תהליך פשוט. תוצאות אמיתיות.</h2>
         </div>

@@ -440,12 +440,11 @@ a { text-decoration: none; color: inherit; }
   line-height: 1.75;
 }
 
-/* Problem subtitle — one line on desktop */
+/* Problem subtitle — full width on desktop, no forced nowrap */
 @media (min-width: 769px) {
   .section-problem .section-header { max-width: none; }
   .section-problem .section-sub {
-    white-space: nowrap;
-    max-width: none;
+    max-width: 760px;
     font-size: 0.9rem;
   }
 }

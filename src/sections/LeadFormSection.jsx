@@ -47,7 +47,7 @@ export default function LeadFormSection() {
   return (
     <section id="form" className="section-form section-depth section-pad">
       <div className="section-inner">
-        <div className="section-header fade-up">
+        <div className="section-header">
           <span className="eyebrow">מתחילים עכשיו</span>
           <h2 className="section-title">
             השאירו פרטים<br />
@@ -91,7 +91,7 @@ export default function LeadFormSection() {
                 ))}
 
                 <button type="submit" className="form-submit">
-                  לקבלת בדיקת נוכחות ללא עלות
+                  קבלו בדיקה חינם
                 </button>
 
                 <p className="form-note">

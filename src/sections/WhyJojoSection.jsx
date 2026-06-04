@@ -19,11 +19,11 @@ const REASONS = [
   },
   {
     title: 'בדיקות עם כלים מקצועיים',
-    desc: 'כל החלטה מבוססת על נתונים, לא על ניחושים. בדיקות אמיתיות עם כלים מקצועיים.',
+    desc: 'Search Console, Ahrefs, Analytics ועוד. כל כלי בודק נדבך שונה בנוכחות שלכם.',
   },
   {
     title: 'הזווית העסקית',
-    desc: 'לא רק "מה לתקן", אלא "מה יגרום לצמיחה". הגישה שלנו היא עסקית, לא טכנית בלבד.',
+    desc: 'השאלה המנחה שלנו: מה יגרום לצמיחה. כל בעיה שמוצאים נמדדת בהשפעתה העסקית.',
   },
 ]
 
@@ -31,11 +31,11 @@ export default function WhyJojoSection() {
   return (
     <section className="section-pad">
       <div className="section-inner">
-        <div className="section-header fade-up">
+        <div className="section-header">
           <span className="eyebrow">למה JOJO</span>
-          <h2 className="section-title">שיווק שמבוסס על הבנה, לא על ניחושים</h2>
+          <h2 className="section-title">בדיקה קודמת לכל המלצה</h2>
           <p className="section-sub">
-            הבדיקה קודמת לכל עצה. כל המלצה שתקבלו נשענת על ממצאים מהעסק שלכם, לא על תבנית.
+            כל המלצה שתקבלו נשענת על ממצאים מהעסק שלכם.
           </p>
         </div>
 

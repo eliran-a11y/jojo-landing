@@ -75,7 +75,7 @@ export default function App() {
       <WhyJojoSection />
       <LeadFormSection />
 
-      <footer className="page-footer fade-in">
+      <footer className="page-footer">
         <nav className="footer-links" aria-label="קישורים ליצירת קשר ורשתות חברתיות">
           {FOOTER_LINKS.map(({ href, Icon, label, external }) => (
             <a
