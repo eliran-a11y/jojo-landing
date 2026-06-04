@@ -819,7 +819,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 @media (max-width: 480px) {
-  .footer-links { gap: 0.625rem; }
+  .footer-links { gap: 0.5rem; }
 }
 
 .footer-link {
@@ -836,4 +836,69 @@ a { text-decoration: none; color: inherit; }
 
 .footer-link:hover {
   color: rgba(248,250,252,0.55);
+}
+
+/* ─── Floating contact bar (mobile only) ────────────────── */
+.float-bar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .float-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    display: flex;
+    gap: 0.625rem;
+    padding: 0.75rem 1.25rem;
+    padding-bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
+    background: rgba(6, 8, 15, 0.88);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border-top: 1px solid rgba(255, 255, 255, 0.09);
+    box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.45);
+  }
+
+  .float-bar-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    min-height: 44px;
+    border-radius: 10px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: inherit;
+    transition: opacity 0.2s ease-out, transform 0.15s ease-out;
+  }
+
+  .float-bar-btn:active {
+    transform: scale(0.97);
+    opacity: 0.82;
+  }
+
+  .float-bar-wa {
+    background: rgba(232, 163, 23, 0.09);
+    border: 1px solid rgba(232, 163, 23, 0.22);
+    color: var(--cta);
+  }
+
+  .float-bar-phone {
+    background: rgba(248, 250, 252, 0.05);
+    border: 1px solid rgba(248, 250, 252, 0.10);
+    color: rgba(248, 250, 252, 0.62);
+  }
+
+  /* Push footer above the floating bar */
+  .page-footer {
+    padding-bottom: calc(5rem + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .float-bar-btn { transition: none; }
 }

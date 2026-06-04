@@ -65,6 +65,31 @@ const FOOTER_LINKS = [
   { href: 'https://www.tiktok.com/@jojo_digital_il',                                                                            Icon: IconTikTok,    label: 'טיקטוק',   external: true  },
 ]
 
+function FloatingContactBar() {
+  return (
+    <div className="float-bar" role="navigation" aria-label="יצירת קשר מהיר">
+      <a
+        href="https://wa.me/972534301194"
+        className="float-bar-btn float-bar-wa"
+        aria-label="וואטסאפ"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <IconWhatsApp />
+        וואטסאפ
+      </a>
+      <a
+        href="tel:+972534301194"
+        className="float-bar-btn float-bar-phone"
+        aria-label="טלפון"
+      >
+        <IconPhone />
+        טלפון
+      </a>
+    </div>
+  )
+}
+
 export default function App() {
   return (
     <>
@@ -91,6 +116,8 @@ export default function App() {
         </nav>
         © {new Date().getFullYear()} JOJO Digital · כל הזכויות שמורות
       </footer>
+
+      <FloatingContactBar />
     </>
   )
 }
