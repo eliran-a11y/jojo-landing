@@ -10,10 +10,14 @@ function SearchIcon() {
   )
 }
 
-function ZapIcon() {
+function AiChipIcon() {
   return (
     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-      <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+      <rect x="7" y="7" width="10" height="10" rx="1.5" />
+      <path d="M9 7V4" /><path d="M12 7V4" /><path d="M15 7V4" />
+      <path d="M9 17v3" /><path d="M12 17v3" /><path d="M15 17v3" />
+      <path d="M7 9H4" /><path d="M7 12H4" /><path d="M7 15H4" />
+      <path d="M17 9h3" /><path d="M17 12h3" /><path d="M17 15h3" />
     </svg>
   )
 }
@@ -66,10 +70,10 @@ const CHECKS = [
     desc: 'מיקום בגוגל + מה שגוגל "מבין" על העסק שלך: מילות מפתח, כותרות, ותכנים.',
   },
   {
-    Icon: ZapIcon,
+    Icon: AiChipIcon,
     color: '#a78bfa',
     title: 'GEO / AI Visibility',
-    desc: 'האם ChatGPT, Gemini ו-Perplexity מציינים אותך? נוכחות במנועי ה-AI החדשים.',
+    desc: 'האם ChatGPT, Gemini ו-Claude מציינים אותך? נוכחות במנועי ה-AI החדשים.',
   },
   {
     Icon: MapPinIcon,
@@ -103,7 +107,7 @@ export default function WhatWeCheckSection() {
       <div className="section-inner">
         <div className="section-header fade-up">
           <span className="eyebrow">מה בודקים</span>
-          <h2 className="section-title">בדיקה מקיפה ב‑6 תחומים</h2>
+          <h2 className="section-title">בדיקה מקיפה בשישה תחומים</h2>
           <p className="section-sub">
             נוכחות דיגיטלית אמיתית היא לא רק אתר,
             זה כל המערכת שעוזרת ללקוחות למצוא אותך.

@@ -3,7 +3,7 @@ import { spotlightHandlers } from '../utils/spotlight'
 
 function IconSearch() {
   return (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
       <circle cx="11" cy="11" r="8" />
       <path d="m21 21-4.35-4.35" />
     </svg>
@@ -12,7 +12,7 @@ function IconSearch() {
 
 function IconRobot() {
   return (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
       <rect x="3" y="11" width="18" height="10" rx="2" />
       <path d="M12 11V7" />
       <circle cx="12" cy="5" r="2" />
@@ -23,7 +23,7 @@ function IconRobot() {
 
 function IconGlobe() {
   return (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
       <circle cx="12" cy="12" r="10" />
       <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
       <path d="M2 12h20" />
@@ -40,7 +40,7 @@ const PROBLEMS = [
   {
     Icon: IconRobot,
     title: 'AI ממליץ על מתחרים, לא עליך',
-    desc: 'ChatGPT, Gemini ו-Perplexity מחזירים תוצאות לפי נוכחות דיגיטלית. אם אתה לא שם, המתחרה שלך כן.',
+    desc: 'ChatGPT, Gemini ו-Claude מחזירים תוצאות לפי נוכחות דיגיטלית. עסק שלא מוזכר בהם לא קיים עבור מי שמחפש.',
   },
   {
     Icon: IconGlobe,
@@ -57,8 +57,7 @@ export default function ProblemSection() {
           <span className="eyebrow">הבעיה האמיתית</span>
           <h2 className="section-title">עסקים טובים נעלמים בדיגיטל</h2>
           <p className="section-sub">
-            רוב העסקים משקיעים בנראות, פחות מדי בנמצאות.
-            זה ההבדל בין לקוח שמגיע ללקוח שלא.
+            רוב העסקים משקיעים באיך שהם נראים, אבל פחות באיך שמוצאים אותם. ושם בדיוק לקוחות הולכים לאיבוד.
           </p>
         </div>
 
